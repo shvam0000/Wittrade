@@ -4,7 +4,7 @@
   box-sizing: border-box;
   max-width: 99vw;
 }
-
+/* CARDBODY*/
 .crdbody {
   width: 18rem;
   padding: 7%;
@@ -43,7 +43,7 @@ a {
   }
 }
 
-/* footer  */
+/* FOOTER */
 
 footer {
   background: rgba(0, 0, 0, 0.815);
