@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 99.9vw; */
+}
+body {
+  overflow-x: hidden;
+}
+.crdbody {
+  padding: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0 0 0 / 10%);
+  border-radius: 15px !important;
+}
+.crdbg {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+
+.card-body {
+  padding: 0.5rem 0.5rem !important;
+}
+
+.cuttxt {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 95%;
+  height: 1.85em;
+  white-space: nowrap;
+  margin-bottom: 0.1rem !important;
+}
+.crdsect {
+  display: flex;
+  justify-content: center;
+  margin: 2% 1%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.fntcrd {
+  font-size: 1.3vw;
+}
+@media only screen and (max-width: 420px) {
+  .crdbody {
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    margin: 0% 15%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .fntcrd {
+    font-size: 3vw;
+  }
+}
+
+footer {
+  background: #16222a;
+  background: rgba(0, 0, 0, 0.85);
+
+  color: white;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #fa944b;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/*SOCİAL İCONS in footer*/
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #c90ed6;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #40edf0;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoTwitter:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 3% auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  transform: rotate(360deg);
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #474545;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
+}

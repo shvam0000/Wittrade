@@ -1,0 +1,66 @@
+.search-inline {
+  margin-left: 2%;
+}
+[type="search"] {
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+#sellbutton {
+  background-color: white;
+  color: black;
+  border: 1% solid #000000;
+  transition-duration: 0.4s !important;
+  font-weight: bolder;
+  font-size: 100%;
+  margin-left: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+}
+#sellbutton:hover {
+  background-color: #000;
+  color: white;
+}
+.searchbutton {
+  background-color: #fff;
+}
+.searchbutton:hover {
+  background-color: rgb(202, 202, 190);
+}
+#wishlist {
+  width: 25px;
+}
+#shoppingbag {
+  width: 25px;
+}
+#user {
+  width: 25px;
+}
+.nav-link {
+  padding: 2%;
+}
+.nav-item {
+  margin-right: 2%;
+}
+.navcolor {
+  background-color: #f1c120 !important;
+}
+.userbutton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.navbtn {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+#searchimg {
+  width: 50%;
+}
+.srchwd {
+  width: 75%;
+}
