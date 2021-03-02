@@ -1,0 +1,231 @@
+
+
+.im1
+{
+    position:absolute;
+    margin-top: 5%;
+}
+
+.btn
+{
+    height: 50%;
+    color:black;
+    font-size: 100%;
+    font-weight: bold;
+    border: 3px dashed rgb(170, 81, 182);
+    width:100%;
+    margin:auto;
+
+    
+}
+.btn:hover {
+    background-color:rgb(170, 81, 182);
+    color: white;
+  }
+
+.im2
+{
+    position:relative ;
+}
+.im3
+{
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 10%;
+    position: relative;
+    
+}
+.container-fluid
+{
+    background-color:transparent;
+    margin-top: 2%;
+    position:relative;
+    width:60%;
+    height: 20%;
+}
+
+
+.btn{
+    width:32%;
+    border-right-color: rgb(170, 81, 182);
+    border-left-color: rgb(170, 81, 182);
+    height:auto;
+    font-size: x-large;
+    background-color: white;
+}
+.im4{
+    width:28%;
+    margin-bottom: 1%;
+    margin-left: 72%;
+    position: relative;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 764px) {
+    /* For mobile phones: */
+    .btn
+    {
+        width: 60%;
+    }
+    .container-fluid
+    {
+        margin:auto
+    }
+  }
+
+@media only screen and (max-width: 658px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    font-size: medium;
+  }
+  .container-fluid
+  {
+      margin-top: 0px;
+      background-color: transparent;
+  }
+  .btn
+  {
+      width: 33%;
+      background-color: white;
+  }
+}
+@media only screen and (max-width: 612px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: 30%;
+        background-color: white;
+        
+    }
+  }
+
+  @media only screen and (max-width: 658px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: 33%;
+        background-color: white;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: 25%;
+        background-color: white;
+        height:fit-content;
+        font-size: medium;
+    }
+    .im1
+    {
+        margin-top: 5%;
+    }
+  }
+  @media only screen and (max-width: 474px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: 25%;
+        background-color: white;
+        height:fit-content;
+        font-size: small;
+    }
+    .im1
+    {
+        margin-top: 5%;
+    }
+  }
+  @media only screen and (max-width: 412px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: fit-content;
+        background-color: white;
+        height:fit-content;
+        font-size: x-small;
+    }
+    .im1
+    {
+        margin-top: 5%;
+    }
+  }
+  @media only screen and (max-width: 412px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      font-size: medium;
+    }
+    .container-fluid
+    {
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .btn
+    {
+        width: fit-content;
+        background-color: white;
+        height:min-content;
+        font-size:xx-small;
+    }
+    .im1
+    {
+        margin-top: 10%;
+    }
+  }
