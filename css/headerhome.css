@@ -4,7 +4,6 @@
 {
     position:absolute;
     width: 100%;
-    margin-top: 5%;
 }
 
 
@@ -147,10 +146,6 @@
         height:fit-content;
         font-size: medium;
     }
-    .im1
-    {
-        margin-top: 5%;
-    }
   }
   @media only screen and (max-width: 474px) {
     /* For mobile phones: */
@@ -172,7 +167,7 @@
     }
     .im1
     {
-        margin-top: 5%;
+        margin-top: 0%;
     }
   }
   @media only screen and (max-width: 412px) {
@@ -195,7 +190,7 @@
     }
     .im1
     {
-        margin-top: 5%;
+        margin-top: 0%;
     }
   }
   @media only screen and (max-width: 412px) {
@@ -218,6 +213,6 @@
     }
     .im1
     {
-        margin-top: 10%;
+        margin-top: 0%;
     }
   }
