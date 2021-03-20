@@ -12,7 +12,7 @@
   transition-duration: 0.4s !important;
   font-weight: bolder;
   font-size: 100%;
-  margin-left: 2%;
+  margin-left: 1%;
   padding-left: 1%;
   padding-right: 1%;
   box-sizing: border-box;
@@ -23,9 +23,16 @@
 }
 .searchbutton {
   background-color: #fff;
+  margin-left: 3%;
+	font-weight: bolder;
+  font-size:100%;
+  padding:0.5%;
+  transition-duration: 0.4s!important;
+   box-sizing: border-box;
 }
 .searchbutton:hover {
-  background-color: rgb(202, 202, 190);
+  background-color: #000;
+	color:white;
 }
 #wishlist {
   width: 25px;
@@ -68,4 +75,34 @@
 #backbtn {
   width: 15px;
 }
+#logo{
+	width:4%;
+}
+@media (max-width: 575.98px) {
+#logo{
+	width : 13%;
+}
+.searchbutton{
+	margin-right: 40%;
+}
+}
+
+
+@media (max-width: 767px) {
+#logo{
+	width : 13%;
+}
+.searchbutton{
+	margin-right: 25%;
+}
+}
+@media (min-width:768px) and (max-width: 1000px) {
+#logo{
+	width : 8%;
+}
+.searchbutton{
+	margin-right: 65%;
+}
+}
+
 /* NEW  */
