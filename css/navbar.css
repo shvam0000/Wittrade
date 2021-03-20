@@ -21,14 +21,29 @@
   background-color: #000;
   color: white;
 }
-.searchbutton {
+.explorebutton {
   background-color: #fff;
   margin-left: 3%;
 	font-weight: bolder;
   font-size:100%;
-  padding:0.5%;
+  padding-left: 1%;
+  padding-right:1%;
   transition-duration: 0.4s!important;
    box-sizing: border-box;
+}
+.searchbutton{
+background-color: #fff;
+	margin-left: 3%;
+	font-weight: bolder;
+  font-size:100%;
+  padding-left: 1%;
+  padding-right:1%;
+  transition-duration: 0.4s!important;
+   box-sizing: border-box;
+}
+.explorebutton:hover{
+	background-color: #000;
+	color:white;
 }
 .searchbutton:hover {
   background-color: #000;
@@ -82,7 +97,7 @@
 #logo{
 	width : 13%;
 }
-.searchbutton{
+.explorebutton{
 	margin-right: 40%;
 }
 }
@@ -92,7 +107,7 @@
 #logo{
 	width : 13%;
 }
-.searchbutton{
+.explorebutton{
 	margin-right: 25%;
 }
 }
@@ -100,7 +115,7 @@
 #logo{
 	width : 8%;
 }
-.searchbutton{
+.explorebutton{
 	margin-right: 65%;
 }
 }
