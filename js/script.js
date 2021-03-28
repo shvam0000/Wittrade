@@ -36,8 +36,9 @@ for(i = 0; i < btns.length; i++){
 // SEARCH FILTER
 
 const search = document.getElementById("search");
+const searchButton = document.getElementById("searchbtn");
 
-search.addEventListener("keyup",(e)=>{
+searchButton.addEventListener("click",(e)=>{
   e.preventDefault();
   const searchValue = search.value.toLowerCase().trim();
 
