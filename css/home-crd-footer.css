@@ -45,6 +45,10 @@ a {
 .fntcrd {
   font-size: 1.3vw;
 }
+.fntcrd:hover {
+  color: #fa944b;
+  text-decoration: none;
+}
 @media only screen and (max-width: 420px) {
   .crdbody {
     padding-top: 4%;
