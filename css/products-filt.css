@@ -42,6 +42,10 @@ body {
 .fntcrd {
   font-size: 1.3vw;
 }
+.fntcrd:hover {
+  color: #fa944b;
+  text-decoration: none;
+}
 a {
   text-decoration: none;
   color: black;
