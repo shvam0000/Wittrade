@@ -6,6 +6,6 @@
       location.href = "./products-filter.html";
   };
   document.getElementById("sl").onclick = function () {
-    location.href = "./products-filter.html";
+    location.href = "./sell.html";
 };
 
