@@ -8,4 +8,6 @@
   document.getElementById("sl").onclick = function () {
     location.href = "./sell.html";
 };
-
+  document.getElementById("sellbutton").onclick = function () {
+    location.href = "./sell.html";
+};
